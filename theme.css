@@ -11,10 +11,10 @@
 /*!
  * Bootstrap v5.0.0-alpha1 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
+ * Copyright 2011-2020 Twitter, Inc.mt-3
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-:root {
+/* :root {
   --bs-blue: #0059F7;
   --bs-indigo: #53ACF8;
   --bs-purple: #ad45f6;
@@ -40,7 +40,7 @@
   --bs-font-sans-serif: "Roboto Condensed", "sans-serif", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --bs-font-monospace: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-}
+} */
 
 *,
 *::before,
@@ -296,6 +296,22 @@ figure {
   margin: 0 0 1rem;
 }
 
+.images-icons{
+  width:48px;
+  height:48px;
+
+}
+
+.images-logo{
+  width:72px !important;
+  height:72px !important;
+}
+
+.images-sosmed{
+  width:20px;
+  height:20px;
+}
+
 img,
 svg {
   vertical-align: middle;
@@ -501,6 +517,8 @@ progress {
   line-height: 1;
   color: #ffaa52  !important;
 }
+
+
 
 @media (min-width: 1200px) {
   .display-1 {
@@ -8417,7 +8435,7 @@ fieldset:disabled .btn {
 }
 
 .m-auto {
-  margin: auto !important;
+  margin: 0 auto !important;
 }
 
 .mx-0 {
@@ -9475,6 +9493,7 @@ fieldset:disabled .btn {
 
 .fs-4 {
   font-size: 1.60181rem !important;
+  color: #f8a820 !important;
 }
 
 .fs-5 {
@@ -18268,10 +18287,6 @@ label {
 
 .plans-cards:hover, .plans-cards:focus {
   background-color: #1eb111 !important;
-}
-
-.features-items {
-  cursor: pointer;
 }
 
 /* .features-items:hover, .features-items:focus {
