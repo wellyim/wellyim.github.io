@@ -9592,6 +9592,11 @@ fieldset:disabled .btn {
   color: #66BB6A !important;
 }
 
+.text-green{
+  color: #045206 !important;
+  font-weight: bold;
+}
+
 .text-info {
   color: #689EFF !important;
 }
